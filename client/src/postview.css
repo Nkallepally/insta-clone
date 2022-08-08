@@ -1,0 +1,48 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+}
+
+.post{
+    border: 1px solid rgb(202, 202, 202);
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    padding-bottom: 10px;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 10px 2px 8px;
+}
+.user-name{
+    font-weight: bold;
+    font-size: large;
+}
+.user-image img{
+    width: 300px;
+    height: 180px;
+}
+.user-meta{
+    display: flex;
+    justify-content:space-between;
+    margin: 2px 10px 2px 8px;
+}
+.user-meta img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.user-likes{
+    margin: 0px 10px ;
+}
+.user-description{
+    font-weight: bold;
+    margin: 2px 10px 2px 8px;
+}

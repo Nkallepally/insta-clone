@@ -1,0 +1,25 @@
+.landing-container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.landing-container img{
+    width: 30%;
+    height: 30%;
+}
+.banner-name{
+    align-self: center;
+    color: green;
+    text-align: center;
+    padding: 30px;
+}
+.banner-name button{
+    color: green;
+    border:1px solid green;
+    border-radius: 5px;
+    background-color: white;
+}
