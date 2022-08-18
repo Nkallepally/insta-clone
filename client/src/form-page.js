@@ -17,8 +17,8 @@ const FormPage=()=>{
                console.log(data)
                axios({
                  method: "POST",
-                //url: "  https://new-insta-b.herokuapp.com/add",
-                 url: "http://localhost:3006/add",
+                url: "https://instaapp-b.herokuapp.com/add",
+                // url: "http://localhost:3006/add",
                  data: data,
                })
                navigate("/postview")
