@@ -18,7 +18,7 @@ app.use(express.json({limit: "30mb", extended: true}))
 app.use(express.urlencoded({extended:false}))
 app.use(cors())
 
-mongoose.connect("mongodb+srv://pranjay:Pranjay9199@cluster0.mzmgp.mongodb.net/?retryWrites=true&w=majority",()=>{
+mongoose.connect("mongodb+srv://pranjay:Pranjay9199@cluster0.mzmgp.mongodb.net/insta?retryWrites=true&w=majority",()=>{
   //  mongoose.connect("mongodb+srv://Shadab:Shadab786@cluster0.q0vz8.mongodb.net/?retryWrites=true&w=majority",()=>{
     //mongoose.connect("mongodb://localhost/insta",()=>{
     console.log("Successfully connected to db")
@@ -29,7 +29,7 @@ mongoose.connect("mongodb+srv://pranjay:Pranjay9199@cluster0.mzmgp.mongodb.net/?
 app.get("/post",(req,res)=>{
         postModel.find({}).then((postData)=>{
         res.status(200).send(postData)
-         console.log(postData)
+         //console.log(postData)
      
     })
 })

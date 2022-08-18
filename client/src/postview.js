@@ -13,8 +13,8 @@ const PostView = () => {
     useEffect(() =>{
         axios({
             method: "GET",
-            url: " https://new-insta-b.herokuapp.com/post",
-            //url: "http://localhost:3006/post",
+           // url: " https://new-insta-b.herokuapp.com/post",
+            url: "http://localhost:3006/post",
         }).then((userData) => {
             console.log(userData)
             setPostData((userData.data).reverse())
