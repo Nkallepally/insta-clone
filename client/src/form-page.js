@@ -17,7 +17,7 @@ const FormPage=()=>{
                console.log(data)
                axios({
                  method: "POST",
-                //url: "https://instaapp-b.herokuapp.com/add",
+               // url: "https://instaclone10x-server.herokuapp.com/add",
                  url: "http://localhost:3006/add",
                  data: data,
                })
@@ -55,6 +55,6 @@ const FormPage=()=>{
 }
 export default FormPage
 
-
+// client= https://instaclone10x-client.herokuapp.com/
 
 
